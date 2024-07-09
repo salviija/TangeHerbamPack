@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/James/AppData/Roaming/PrismLauncher/instances/TangeHerbam1.20/.minecraft/saves/New World (2)
+}
+

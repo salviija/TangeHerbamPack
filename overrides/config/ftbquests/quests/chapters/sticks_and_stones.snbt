@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sticks_and_stones"
+	group: "3643CAA9151DB300"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "minecraft:stick"
+	}
+	id: "30B6316A6D7A88DD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [""]
+		id: "60086EAAF5C97C59"
+		tasks: [{
+			id: "33E9EAFCE86EEC85"
+			title: "Dropped into the World"
+			type: "checkmark"
+		}]
+		x: 1.5d
+		y: -2.5d
+	}]
+	title: "Sticks and Stones"
+}
