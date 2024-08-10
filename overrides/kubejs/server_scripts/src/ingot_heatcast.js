@@ -183,8 +183,9 @@ let addGregTechIngotsToTFC = (/** @type {Internal.DataPackEventJS} */ event) => 
     addTFCCastingRecipe("gtceu:" + id + "_ingot", "gtceu:" + id, 144)
   })
   
-  addTFCCastingRecipe("tfc:metal/ingot/copper", "gtceu:copper", 144)
-  addTFCCastingRecipe("tfc:metal/ingot/gold", "gtceu:gold", 144)
+  addTFCCastingRecipe("tfc:metal/ingot/copper", "gtceu:copper", 144,
+    "tfc:metal/ingot/gold", "gtceu:gold", 144
+  )
 
   let TFCMoltenTemps = {
     "tfc:metal/copper": 1080,
@@ -358,6 +359,7 @@ let addGregTechIngotsToTFC = (/** @type {Internal.DataPackEventJS} */ event) => 
   addTFCCastingRecipe("firmalife:metal/ingot/chromium", "gtceu:chromium", 144)
   addTFCHeatCapability("gtceu:wrought_iron_bolt", 1.429, 921, 1228)
 
-  addTFCSize("gtceu:long_distance_fluid_pipeline", "large", "very_light")
-  addTFCSize("gtceu:long_distance_item_pipeline", "large", "very_light")
+  addTFCSize("gtceu:long_distance_fluid_pipeline", "large", "very_light",
+    "gtceu:long_distance_item_pipeline", "large", "very_light"
+  )
 }
